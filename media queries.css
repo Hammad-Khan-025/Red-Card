@@ -1,0 +1,179 @@
+@media only screen and (min-width: 320px)and (max-width: 575px) {
+    .section1, .section2, .section3{
+        padding: 5vw;
+    }
+    .section1{
+        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 83% 100%, 0% 100%);
+    }
+    .section3{
+        clip-path: polygon(0% 0%, 100% 0, 100% 75%, 85% 100%, 0% 100%);
+    }
+    .section1 p{
+    line-height: 15px;
+    font-size: 2.2vw;
+    }
+    .section1 h1{
+        font-size: 7vw;
+    }
+    .section1 h3{
+        font-size: 3.5vw;
+    }
+    .heading-image h1{
+        font-size: 4vw;
+        margin-bottom: 0px;
+        margin-left: 8px;
+    }
+    .curve-img{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .bvb-img{
+        width: 50%;
+    }
+    .bvb-main{ 
+        margin-left: 1vw;
+        margin-top: -10px;
+        gap: 1.2vw;
+    }
+    .bvb-main div p:nth-of-type(1){
+        font-size: 2.5vw;
+    }
+    .bvb-main div p:nth-of-type(2){
+        font-size: 2.5vw;
+    }
+    .section2{
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .section2 div{
+        margin-bottom: 15px;
+    }
+    .section3 h2{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 576px)and (max-width: 767px) {
+    .section1, .section2, .section3{
+        padding: 30px 40px;
+    }
+    .section1 p{
+        line-height: 20px;
+        font-size: 1.7vw;
+    }
+
+    .section1{
+        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 85% 100%, 0% 100%);
+        padding-bottom: 50px;
+    }
+    .heading-image h1{
+        font-size: 4vw;
+        margin-bottom: 0px;
+        margin-left: 8px;
+    }
+    .curve-img{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .bvb-img{
+        width: 45%;
+    }
+    .bvb-main{ 
+        margin-left: -10px;
+        margin-top: -15px;
+    }
+
+    .bvb-main div p:nth-of-type(1){
+        font-size: 2.3vw;
+    }
+    .bvb-main div p:nth-of-type(2){
+        font-size: 2.3vw;
+    }
+
+    .section2{
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .section2 div{
+        margin-bottom: 25px;
+    }
+    .section3 h2{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width: 991px){
+    .section1, .section2, .section3{
+        padding: 30px 50px;
+    }
+    .section1{
+        clip-path: polygon(0% 0%, 100% 0, 100% 88%, 85% 100%, 0% 100%);
+        padding-bottom: 50px;
+    }
+    .section1 p{
+        line-height: 25px;
+        font-size: 1.8vw;
+    }
+    .heading-image h1{
+        font-size: 3.5vw;
+        margin-bottom: 0px;
+        margin-left: 8px;
+    }
+    .curve-img{
+        width: 3vw;
+        height: 3vw;
+        margin-top: 10px;
+    }
+
+    .bvb-img{
+        width: 50%;
+    }
+    .bvb-main{ 
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+    .section2 div{
+        margin-bottom: 25px;
+    }
+
+    .bvb-main div p:nth-of-type(1){
+        font-size: 2.3vw;
+    }
+    .bvb-main div p:nth-of-type(2){
+        font-size: 2.3vw;
+    }
+}
+
+@media only screen and (min-width: 992px)and (max-width: 1199px){
+    .section1, .section2, .section3{
+        padding: 60px 80px;
+    }
+
+    .heading-image h1{
+        font-size: 3vw;
+        margin-bottom: 0px;
+        margin-left: 8px;
+    }
+    .curve-img{
+        width: 2.2vw;
+        height: 2.2vw;
+        margin-top: 12px;
+    }
+
+    .bvb-main div p:nth-of-type(1){
+        font-size: 2vw;
+    }
+    .bvb-main div p:nth-of-type(2){
+        font-size: 2vw;
+    }
+    .bvb-main{ 
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+    .section2{
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+}
